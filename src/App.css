@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.map-thumbnail {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.map-thumbnail:hover {
+    transform: scale(1.02);
+}
+
+/* Style the tab navigation links */
+.colored-tabs .nav-link {
+    background-color: #0d6efd;
+    color: #ffffff;
+    margin-right: 5px;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    transition: background-color 0.3s ease;
+}
+
+.colored-tabs .nav-link:hover {
+    background-color: #d6d8db;
+}
+
+/* Add spacing between tab buttons */
+.colored-tabs .nav-item {
+    margin-right: 8px;
+    /* adjust spacing as needed */
+}
+
+/* Optional: remove margin on the last tab */
+.colored-tabs .nav-item:last-child {
+    margin-right: 0;
+}
+
+
+.colored-tabs .nav-item .nav-link.active {
+    background-color: #f6ef39 !important;
+    color: black !important;
+    border-color: #f6ef39 !important;
+}
+
+.tab-content {
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.map-label {
+    font-size: 1.4rem;
+    /* slightly bigger than base */
+    font-weight: 600;
+    color: #3e930a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}

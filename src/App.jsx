@@ -16,7 +16,7 @@ const mapCategories = {
   'Hazard': {
     'Overall': '/maps/Hazard/Overall.png',
   },
-  'Crop Sensitivity':{
+/*   'Crop Sensitivity':{
     'test': '',
   },
   'Crop Occurence':{
@@ -24,7 +24,7 @@ const mapCategories = {
   },
   'CRVA Maps':{
     'test': '',
-  },
+  }, */
 };
 
 function App() {

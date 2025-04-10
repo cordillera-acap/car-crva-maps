@@ -15,6 +15,10 @@ const mapCategories = {
   },
   'Hazard': {
     'Overall': '/maps/Hazard/Overall.png',
+    'Drought': '/maps/Hazard/Drought.png',
+    'Landslide': '/maps/Hazard/Landslide.png',
+    'Flood': '/maps/Hazard/Flood.png',
+    'Tropical Cyclone': '/maps/Hazard/Tropical_Cyclone.png',
   },
   'Crop Sensitivity':{
     'test': '',
